@@ -12,7 +12,7 @@ import java.util.*;
     public static void main(String argv[]) throws SAXException,
 	IOException, ParserConfigurationException, TransformerConfigurationException {
 
-        File xmlFile = new File("/storage/emulated/0/AppProjects/CreateXmlFile/src","citations.xml");
+        File xmlFile = new File("citations.xml");
 		xmlFile.createNewFile();
 		FileWriter fw = null;
 		InputStream fis = null;
